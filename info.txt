@@ -1,5 +1,15 @@
+Course data:
 
 Course URL: https://www.youtube.com/watch?v=Qr4QMBUPxWo&t=405s
-
-
 Github: https://github.com/jimdevops19/FlaskSeries
+
+
+Execution data:
+in order to run the flask app:
+
+- save your work in the main .py app (in our case market.py)
+- in the command prompt, navigate to the folder including this file (market.py)
+- execute the following commands:
+  $ export FLASK_APP=market.py  => this command to set the applicaiton file
+  $ export FLASK_DEBUG=True     => this command to enable refresh without server restart
+  $ flask run                   => this command will run the application and provide the URL to access it
